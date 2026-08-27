@@ -1,59 +1,49 @@
 # 0xzgbot
 
-Tools for making physical work: CNC/CAM, sand casting, and photography production. Also local AI agents and chat UIs.
+Native tools for **making physical things** — CNC, metal casting, product photography — and the local AI stack that builds them.
 
-Several of these repos are **private while I build** — source stays closed; the work is still happening. Original (not forked) earlier projects live on [`tmophoto`](https://github.com/tmophoto).
-
----
-
-## CNC / CAM
-
-### [ShopPilot](https://github.com/0xzgbot/ShopPilot)
-Native **macOS** CNC suite (Swift). Design vectors, generate 2.5D and 3D toolpaths, simulate the cut, and stream to GRBL/FluidNC. Jobs save as `.shoppilot` packages.
-
-### [VectorPilot](https://github.com/0xzgbot/VectorPilot)
-**Windows** sibling of ShopPilot. C# / .NET 8 + WPF. Same document format and machine-safety rules: design → toolpaths → 3D preview → post → machine control.
+Public source where it helps. Private while a product is still in the shop.
 
 ---
 
-## Casting & metal
+## CNC
 
-### SculptCast
-*Source private while in development.*
+Two native apps. One job file (`.shoppilot`). Design → toolpaths → preview → machine.
 
-Instant-quote metal casting. Upload an STL, get a price per part in aluminum or bronze. Next.js site + FastAPI quote engine.
+| | Platform | |
+| --- | --- | --- |
+| **[ShopPilot](https://github.com/0xzgbot/ShopPilot)** | macOS · SwiftUI | Profile, pocket, drill, V-carve, 3D rough/finish, photo lithophane, nesting. GRBL/FluidNC + built-in simulator. Hold/Reset always on screen. |
+| **[VectorPilot](https://github.com/0xzgbot/VectorPilot)** | Windows · C# / WPF | Same document, same safety rules. 3D preview, posts, machine control. |
 
-### Casting simulator
-Public original: [`tmophoto/sand_casting_v2`](https://github.com/tmophoto/sand_casting_v2). A private copy on this account is where I keep developing it.
+---
 
-Metal casting simulator — sand molds, ceramic shell, and multiple metals. Load an STL, gate it, pour, and see fill, solidification, and defect flags.
+## Casting
 
-### MadeFromFire
-*Source private while in development.*
-
-Atelier shop for custom terrain jewelry and bronze topographic objects (Little Cottonwood Canyon, Utah). Includes a topographic record-weight designer / configurator (`topo-record-weight-designer`).
+| | |
+| --- | --- |
+| **SculptCast** | Instant-quote metal casting. Upload an STL, get a price per part in aluminum or bronze. *Source private.* |
+| **Casting simulator** | Sand molds, ceramic shell, multiple metals. STL → gating, fill, solidification, defect flags. Public original: [`tmophoto/sand_casting_v2`](https://github.com/tmophoto/sand_casting_v2). |
+| **Made From Fire** | Forged-goods studio — steel, bronze topographic objects, and a terrain record-weight configurator. *Source private.* |
 
 ---
 
 ## Photography
 
-### Photo Labeler
-*Source private while in development.*
-
-Multi-AI LLM/VLM pipeline for eyewear image labeling. RAW in → dual-model consensus → product name, frame color, lens + confidence → XMP sidecars (Capture One). **macOS** (Swift + local VLMs) and **Windows** production (dual-GPU). Same job, two machines.
+**Photo Labeler** — multi-AI LLM/VLM pipeline for eyewear product photos. RAW in → dual-model consensus → product, color, lens + confidence → XMP sidecars (Capture One). macOS + Windows production. *Source private.*
 
 ---
 
 ## Local AI & media
 
-### [Relay](https://github.com/tmophoto/relay)
-Local LM Studio chat UI (original on `tmophoto`). Follow-ons on this account, source private: **TurboQuant mobile** and **Relay superapp**.
+| | |
+| --- | --- |
+| **[Cinesmith](https://github.com/0xzgbot/forge-nps-v01)** | Hermes-led cinematic production runtime. Brief like a producer; Hermes plans, renders, audits, and remembers. Formerly Forge NPS. |
+| **[hermes-media-skill-pack](https://github.com/0xzgbot/hermes-media-skill-pack)** | 129 Hermes Agent skills — cinematography, lighting, character consistency, LTX 2.3 / FLUX 2, audio and post. |
+| **[hermes-comfyui-skills](https://github.com/0xzgbot/hermes-comfyui-skills)** | Hermes skill bundles for ComfyUI image and video (Flux.2, LTX, Wan, SDXL). |
+| **Relay** | Local LM Studio chat. Original: [`tmophoto/relay`](https://github.com/tmophoto/relay). Mobile UI on this account. *Source private.* |
 
-### [Cinesmith](https://github.com/0xzgbot/forge-nps-v01)
-Formerly Forge NPS. Hermes-led cinematic AI production runtime: brief like an executive producer; Hermes plans, renders, audits, and remembers. Private workspaces on this account: `The-Forge`, `forge`.
+---
 
-### [hermes-media-skill-pack](https://github.com/0xzgbot/hermes-media-skill-pack)
-129 media-production skills for Hermes Agent — cinematography, lighting, style emulation, character consistency, prompt engineering, LTX / FLUX video workflows, audio and post.
+Built with **Hermes** on Nous Research free models. Prompts in Grok 4.6 low. Verify and correction in Grok 4.6 max.
 
-### [hermes-comfyui-skills](https://github.com/0xzgbot/hermes-comfyui-skills)
-Hermes Agent skill bundles for ComfyUI image and video generation.
+Earlier original work: [`tmophoto`](https://github.com/tmophoto).
