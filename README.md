@@ -23,10 +23,10 @@ Native **macOS** CNC suite (Swift). Design vectors, generate 2.5D and 3D toolpat
 
 Instant-quote metal casting. Upload an STL, get a price per part in aluminum or bronze. Next.js site + FastAPI quote engine.
 
-### Sand casting simulation
+### Casting simulator
 Public original: [`tmophoto/sand_casting_v2`](https://github.com/tmophoto/sand_casting_v2). A private copy on this account is where I keep developing it.
 
-Process simulation for sand casting — gating, fill, and foundry workflow, not a generic CFD demo.
+Metal casting simulator — sand molds, ceramic shell, and multiple metals. Load an STL, gate it, pour, and see fill, solidification, and defect flags.
 
 ### MadeFromFire
 *Source private while in development.*
