@@ -37,10 +37,10 @@ Atelier shop for custom terrain jewelry and bronze topographic objects (Little C
 
 ## Photography
 
-### Photo labeler
+### Photo Labeler
 *Source private while in development.*
 
-Eyewear product photo labeling pipeline. **macOS** (Swift) and **Windows** production app — same job, two machines.
+Multi-AI LLM/VLM pipeline for eyewear image labeling. RAW in → dual-model consensus → product name, frame color, lens + confidence → XMP sidecars (Capture One). **macOS** (Swift + local VLMs) and **Windows** production (dual-GPU). Same job, two machines.
 
 ---
 
