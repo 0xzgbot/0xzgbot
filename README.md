@@ -38,8 +38,8 @@ Two native apps. One job file (`.shoppilot`). Design → toolpaths → preview �
 | | |
 | --- | --- |
 | **[Cinesmith](https://github.com/0xzgbot/forge-nps-v01)** | Fully local cinematic pipeline. Isolated Hermes (does not touch yours) orchestrates DGX Spark + dual RTX 3090s running multiple ComfyUI instances. Plan → render → audit → remember. |
-| **[hermes-media-skill-pack](https://github.com/0xzgbot/hermes-media-skill-pack)** | 136 Hermes skills — cinematography through LTX 2.5 / FLUX 2, isolated Hermes, DGX Spark + dual 3090 Comfy, vision audit. |
-| **[hermes-comfyui-skills](https://github.com/0xzgbot/hermes-comfyui-skills)** | Hermes skill bundles for ComfyUI image and video (Flux.2, LTX, Wan, SDXL). |
+| **[hermes-media-skill-pack](https://github.com/0xzgbot/hermes-media-skill-pack)** | 138 Hermes skills (153 SKILL.md) — cinematography through LTX / FLUX 2 / MiniMax H3 / Wan 3.0, isolated Hermes, DGX Spark + dual 3090 Comfy, vision audit. |
+| **[hermes-comfyui-skills](https://github.com/0xzgbot/hermes-comfyui-skills)** | Current-Hermes ComfyUI playbooks + slash-command bundles — Flux.2, Z-Image, LTX, Wan 3.0, MiniMax H3, isolated home, vision audit, cron batches. |
 | **Relay** | Local LM Studio chat. Original: [`tmophoto/relay`](https://github.com/tmophoto/relay). Mobile UI on this account. *Source private.* |
 
 ---
