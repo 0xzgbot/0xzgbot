@@ -23,7 +23,7 @@ Two native apps. One job file (`.shoppilot`). Design → toolpaths → preview �
 | --- | --- |
 | **SculptCast** | Instant-quote metal casting. Upload an STL, get a price per part in aluminum or bronze. *Source private.* |
 | **Casting simulator** | Sand molds, ceramic shell, multiple metals. STL → gating, fill, solidification, defect flags. Public original: [`tmophoto/sand_casting_v2`](https://github.com/tmophoto/sand_casting_v2). |
-| **Made From Fire** | Forged-goods studio — steel, bronze topographic objects, and a terrain record-weight configurator. *Source private.* |
+| **Made From Fire** | Foundry — bronze topographic objects and a terrain record-weight configurator. *Source private.* |
 
 ---
 
