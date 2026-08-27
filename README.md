@@ -21,7 +21,7 @@ Native **macOS** CNC suite (Swift). Design vectors, generate 2.5D and 3D toolpat
 ### SculptCast
 *Source private while in development.*
 
-Self-serve studio estimates for sculptural metal casting. Upload a mesh, confirm scale, choose metal and finish, get a castability review and a price range. Next.js site + FastAPI quote engine.
+Instant-quote metal casting. Upload an STL, get a price per part in aluminum or bronze. Next.js site + FastAPI quote engine.
 
 ### Sand casting simulation
 Public original: [`tmophoto/sand_casting_v2`](https://github.com/tmophoto/sand_casting_v2). A private copy on this account is where I keep developing it.
